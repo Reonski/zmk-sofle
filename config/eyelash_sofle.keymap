@@ -93,11 +93,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE       &kp LC(LEFT_BRACE)  &kp LC(RIGHT_BRACE)  &kp LS(F3)    &trans      &trans    &kp LC(PAGE_UP)    &kp COMMA  &kp PERIOD    &kp QUESTION  &kp MINUS       &kp EQUAL        &kp BACKSPACE
+&kp LS(GRAVE)   &trans              &trans               &trans        &trans      &trans    &kp LC(PAGE_DOWN)  &kp HOME   &kp UP_ARROW  &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans          &trans              &trans               &trans        &kp INSERT  &trans    &trans             &kp LEFT   &kp F2        &kp RIGHT     &trans          &kp SEMI         &kp APOS
+&kp LEFT_SHIFT  &kp LC(Z)           &kp LC(X)            &kp LC(C)     &kp LC(V)   &trans    &trans             &kp END    &kp DOWN      &trans        &trans          &trans           &trans
+&trans          &kp LEFT_CONTROL    &kp LEFT_WIN         &kp LEFT_ALT  &trans      &trans    &trans             &kp SPACE  &trans        &trans        &trans          &trans
             >;
 
             display-name = "layer3";
