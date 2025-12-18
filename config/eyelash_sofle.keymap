@@ -93,11 +93,11 @@
 
         layer_3 {
             bindings = <
-&kp GRAVE       &kp LC(LEFT_BRACE)  &kp LC(RIGHT_BRACE)  &kp LS(F3)    &trans      &trans    &kp LC(PAGE_UP)    &kp COMMA  &kp PERIOD    &kp QUESTION  &kp MINUS       &kp EQUAL        &kp BACKSPACE
-&kp LS(GRAVE)   &trans              &trans               &trans        &trans      &trans    &kp LC(PAGE_DOWN)  &kp HOME   &kp UP_ARROW  &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&trans          &trans              &trans               &trans        &kp INSERT  &trans    &trans             &kp LEFT   &kp F2        &kp RIGHT     &trans          &kp SEMI         &kp APOS
-&kp LEFT_SHIFT  &kp LC(Z)           &kp LC(X)            &kp LC(C)     &kp LC(V)   &trans    &trans             &kp END    &kp DOWN      &trans        &trans          &trans           &trans
-&trans          &kp LEFT_CONTROL    &kp LEFT_WIN         &kp LEFT_ALT  &trans      &trans    &trans             &kp SPACE  &trans        &trans        &trans          &trans
+&kp GRAVE       &kp LC(LEFT_BRACE)  &kp LC(RIGHT_BRACE)  &kp LS(F3)    &trans      &trans    &kp LC(PAGE_UP)    &kp COMMA  &kp PERIOD    &kp QUESTION   &kp MINUS       &kp EQUAL        &kp BACKSPACE
+&kp LS(GRAVE)   &trans              &trans               &trans        &trans      &trans    &kp LC(PAGE_DOWN)  &kp HOME   &kp UP_ARROW  &kp PAGE_UP    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans          &trans              &trans               &trans        &kp INSERT  &trans    &trans             &kp LEFT   &kp F2        &kp RIGHT      &trans          &kp SEMI         &kp APOS
+&kp LEFT_SHIFT  &kp LC(Z)           &kp LC(X)            &kp LC(C)     &kp LC(V)   &trans    &trans             &kp END    &kp DOWN      &kp PAGE_DOWN  &trans          &trans           &trans
+&trans          &kp LEFT_CONTROL    &kp LEFT_WIN         &kp LEFT_ALT  &trans      &trans    &trans             &kp SPACE  &trans        &trans         &trans          &trans
             >;
 
             display-name = "layer3";
@@ -106,15 +106,15 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(NUMBER_1)      &kp LC(NUMBER_2)      &kp LC(NUMBER_3)         &kp LC(NUMBER_4)         &kp LC(N5)           &kp LC(NUMBER_6)    &trans  &kp F1                   &kp F2                   &kp F3            &kp F4   &kp F5   &kp F6
+&kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))     &kp LC(LA(NUMBER_4))     &kp LC(LA(N5))       &trans              &trans  &kp F7                   &kp F8                   &kp F9            &kp F10  &kp F11  &kp F12
+&kp LC(GRAVE)         &trans                &kp LA(GRAVE)            &kp LC(LA(GRAVE))        &kp LA(LS(GRAVE))    &trans              &trans  &kp LA(NUMBER_1)         &kp LA(NUMBER_2)         &kp LA(NUMBER_3)  &trans   &trans   &trans
+&kp LC(KP_NUMBER_7)   &kp LC(KP_NUMBER_8)   &kp LC(LA(KP_NUMBER_7))  &kp LC(LA(KP_NUMBER_8))  &kp LC(KP_NUMBER_9)  &trans              &trans  &kp LC(LA(KP_NUMBER_6))  &kp LA(LC(KP_NUMBER_9))  &trans            &trans   &trans   &trans
+&trans                &kp LCTRL             &trans                   &kp LEFT_ALT             &trans               &trans              &trans  &trans                   &trans                   &trans            &trans   &trans
             >;
 
             display-name = "layer4";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
         };
     };
 };
