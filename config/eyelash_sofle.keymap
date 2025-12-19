@@ -115,11 +115,11 @@
 
         layer_4 {
             bindings = <
-&kp LC(NUMBER_1)      &kp LC(NUMBER_2)      &kp LC(NUMBER_3)         &kp LC(NUMBER_4)         &kp LC(N5)           &kp LC(NUMBER_6)    &trans  &kp F1                   &kp F2                   &kp F3            &kp F4   &kp F5   &kp F6
-&kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))     &kp LC(LA(NUMBER_4))     &kp LC(LA(N5))       &trans              &trans  &kp F7                   &kp F8                   &kp F9            &kp F10  &kp F11  &kp F12
-&kp LC(GRAVE)         &trans                &kp LA(GRAVE)            &kp LC(LA(GRAVE))        &kp LA(LS(GRAVE))    &trans              &trans  &kp LA(NUMBER_1)         &kp LA(NUMBER_2)         &kp LA(NUMBER_3)  &trans   &trans   &trans
-&kp LC(KP_NUMBER_7)   &kp LC(KP_NUMBER_8)   &kp LC(LA(KP_NUMBER_7))  &kp LC(LA(KP_NUMBER_8))  &kp LC(KP_NUMBER_9)  &trans              &trans  &kp LC(LA(KP_NUMBER_6))  &kp LA(LC(KP_NUMBER_9))  &trans            &trans   &trans   &trans
-&trans                &kp LCTRL             &trans                   &kp LEFT_ALT             &trans               &trans              &trans  &trans                   &trans                   &trans            &trans   &trans
+&kp LC(NUMBER_1)      &kp LC(NUMBER_2)      &kp LC(NUMBER_3)         &kp LC(NUMBER_4)         &kp LC(N5)           &kp LC(NUMBER_6)    &trans  &kp F1                   &kp F2                   &kp F3            &kp F4   &kp F5         &kp F6
+&kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))     &kp LC(LA(NUMBER_4))     &kp LC(LA(N5))       &trans              &trans  &kp F7                   &kp F8                   &kp F9            &kp F10  &kp F11        &kp F12
+&kp LC(GRAVE)         &trans                &kp LA(GRAVE)            &kp LC(LA(GRAVE))        &kp LA(LS(GRAVE))    &trans              &trans  &kp LA(NUMBER_1)         &kp LA(NUMBER_2)         &kp LA(NUMBER_3)  &trans   &trans         &trans
+&kp LC(KP_NUMBER_7)   &kp LC(KP_NUMBER_8)   &kp LC(LA(KP_NUMBER_7))  &kp LC(LA(KP_NUMBER_8))  &kp LC(KP_NUMBER_9)  &trans              &trans  &kp LC(LA(KP_NUMBER_6))  &kp LA(LC(KP_NUMBER_9))  &trans            &trans   &trans         &kp RSHIFT
+&trans                &kp LCTRL             &trans                   &kp LEFT_ALT             &trans               &trans              &trans  &trans                   &trans                   &kp RCTRL         &trans   &kp RIGHT_ALT
             >;
 
             display-name = "layer4";
