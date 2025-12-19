@@ -57,14 +57,14 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - layer3
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
-  - F2
-  - $$mdi:keyboard-space$$
-  - layer4
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - layer2
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', h: layer4}
+  - F2
+  - {t: '$$mdi:keyboard-space$$', h: layer3}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
+  - layer2
+  - $$mdi:apple-keyboard-shift$$
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -252,10 +252,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Ctl+C, h: Ctl+V}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -318,10 +318,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
