@@ -37,6 +37,15 @@
         tap-ms = <100>;
     };
 
+    scroll_encoder2: scroll_encoder2 {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+        tap-ms = <50>;
+        label = "SCROLL_ENCODER2";
+    };
+
     behaviors {
     };
 
@@ -61,7 +70,7 @@
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans  &lt 4 SPACE    &kp F2           &lt 3 SPACE  &kp ENTER  &kp RCTRL  &mo 2    &kp RIGHT_SHIFT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder2>;
             display-name = "LAYER0";
         };
 
