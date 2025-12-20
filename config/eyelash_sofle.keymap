@@ -102,11 +102,11 @@
 
         layer_3 {
             bindings = <
-&kp GRAVE       &kp LC(LEFT_BRACE)  &kp LC(RIGHT_BRACE)  &kp LS(F3)    &trans      &trans    &kp LC(LS(UP_ARROW))    &kp COMMA  &kp PERIOD    &kp QUESTION   &kp MINUS       &kp EQUAL        &kp BACKSPACE
-&kp LS(GRAVE)   &trans              &trans               &trans        &trans      &trans    &kp LC(LS(DOWN_ARROW))  &kp HOME   &kp UP_ARROW  &kp PAGE_UP    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&trans          &trans              &trans               &trans        &kp INSERT  &trans    &kp LC(LS(LEFT_ARROW))  &kp LEFT   &kp F2        &kp RIGHT      &trans          &kp SEMI         &kp APOS
-&kp LEFT_SHIFT  &kp LC(Z)           &kp LC(X)            &kp LC(C)     &kp LC(V)   &trans    &kp LC(LS(RIGHT))       &kp END    &kp DOWN      &kp PAGE_DOWN  &trans          &trans           &trans
-&trans          &kp LEFT_CONTROL    &kp LEFT_WIN         &kp LEFT_ALT  &trans      &trans    &mt LC(V) LC(C)         &kp SPACE  &trans        &trans         &trans          &trans
+&kp GRAVE       &kp LC(LEFT_BRACE)  &kp LC(RIGHT_BRACE)  &kp LS(F3)    &trans      &trans    &kp LC(LS(UP_ARROW))    &kp COMMA  &kp PERIOD    &kp QUESTION   &kp MINUS         &kp EQUAL          &kp BACKSPACE
+&kp LS(GRAVE)   &trans              &trans               &trans        &trans      &trans    &kp LC(LS(DOWN_ARROW))  &kp HOME   &kp UP_ARROW  &kp PAGE_UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans          &trans              &trans               &trans        &kp INSERT  &trans    &kp LC(LS(LEFT_ARROW))  &kp LEFT   &kp F2        &kp RIGHT      &trans            &kp SEMI           &kp APOS
+&kp LEFT_SHIFT  &kp LC(Z)           &kp LC(X)            &kp LC(C)     &kp LC(V)   &trans    &kp LC(LS(RIGHT))       &kp END    &kp DOWN      &kp PAGE_DOWN  &trans            &trans             &trans
+&trans          &kp LEFT_CONTROL    &kp LEFT_WIN         &kp LEFT_ALT  &trans      &trans    &mt LC(V) LC(C)         &kp SPACE  &trans        &trans         &trans            &trans
             >;
 
             display-name = "layer3";
