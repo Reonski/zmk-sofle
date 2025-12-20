@@ -16,7 +16,7 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0 (old value), 1
-    time-to-max-speed-ms = <50>;     // 300 (old value), 100
+    time-to-max-speed-ms = <100>;     // 300 (old value), 100
     delay-ms = <0>;                   // 0
 };
 
@@ -34,7 +34,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <50>; // originally 100
+        tap-ms = <100>; // originally 100
     };
 
     scroll_encoder2: scroll_encoder2 {
