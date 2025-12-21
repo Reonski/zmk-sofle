@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - Ctl+$$mdi:arrow-up-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - Ctl+$$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -57,10 +57,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - layer3
   - {t: '$$mdi:keyboard-space$$', h: layer4}
-  - F2
-  - {t: '$$mdi:keyboard-space$$', h: layer3}
+  - {t: Ctl+C, h: Ctl+V}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - layer2
@@ -197,12 +197,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
   - {t: '`', s: '~'}
-  - Ctl+{
-  - Ctl+}
+  - {t: 'Ctl+[', s: 'Ctl+{'}
+  - {t: 'Ctl+]', s: 'Ctl+}'}
   - Sft+F3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+$$mdi:arrow-up-bold$$
+  - $$mdi:arrow-up-bold$$
   - {t: ',', s: <}
   - .
   - '?'
@@ -214,8 +214,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+$$mdi:arrow-down-bold$$
+  - Ctl+T
+  - $$mdi:arrow-down-bold$$
   - HOME
   - $$mdi:arrow-up-bold$$
   - PgUp
@@ -224,11 +224,11 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+S
   - {t: '$$mdi:transfer$$', type: trans}
   - Ins
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
   - F2
   - $$mdi:arrow-right-bold$$
@@ -240,8 +240,8 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+$$mdi:arrow-right-bold$$
+  - Ctl+B
+  - $$mdi:arrow-right-bold$$
   - END
   - $$mdi:arrow-down-bold$$
   - PgDn
@@ -252,10 +252,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Ctl+C, h: Ctl+V}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -267,7 +267,7 @@ layers:
   - Ctl+4
   - {t: Ctl+5, s: Ctl+%}
   - Ctl+6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
   - F1
   - F2
   - F3
@@ -280,7 +280,7 @@ layers:
   - Ctl+Alt+4
   - {t: Ctl+Alt+5, s: Ctl+Alt+%}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
   - F7
   - F8
   - F9
@@ -293,7 +293,7 @@ layers:
   - {t: Ctl+Alt+`, s: Ctl+Alt+~}
   - {t: Alt+Sft+`, s: Alt+Sft+~}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
   - Alt+1
   - Alt+2
   - Alt+3
@@ -306,7 +306,7 @@ layers:
   - Ctl+Alt+KP 8
   - Ctl+KP 9
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-right-bold$$
   - Ctl+Alt+KP 6
   - Alt+Ctl+KP 9
   - {t: '$$mdi:transfer$$', type: trans}
